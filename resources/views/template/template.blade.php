@@ -36,11 +36,12 @@
 			color:#fff;
 		}
 
+
 	</style>
 
 <body>
-<div class="container">
-	<div class="row">
+
+
 	<header>
 		<nav >
 			<ul  class="navber">
@@ -70,8 +71,8 @@
 			gg
 		</div>
 	</footer>
-	</div>
-</div>
+
+
 
 </body>
 </html>
