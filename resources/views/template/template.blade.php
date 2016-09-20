@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>MSU Part-Time</title>
 	<link href="{{ URL::asset('public/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+	<script src="{{ URL::asset('public/bootstrap/js/bootstrap.js')  }}"></script>
 </head>
 
 	<style type="text/css" media="screen">
@@ -45,10 +46,10 @@
 	<header>
 		<nav >
 			<ul  class="navber">
-				<li><a href="" title="" style="color:#fff; margin-right: 2%;">Register/Login</a></li>
+				<li><a href="" title="" id="noom" style="color:#fff; margin-right: 2%;">Register/Login</a></li>
 			</ul>
 		</nav>
-		<nav class="navbar navbar-default" style="margin-top: -0.85%;">
+		<nav class="navbar navbar-default " id="scoller" style="margin-top: -0.85%;">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">MSU</a>
 				<ul class="nav navbar-nav navbar-right">
@@ -61,7 +62,7 @@
 				</ul>
 			</div>
 		</nav>
-		<img src="{{ url('public/image/bander01.png')}}" width=100% style="margin-top: -1.6%;">
+		<img src="{{ url('public/image/bander01.png')}}" width=100% style="margin-top: -1.4%;">
 	</header>
 		<section >
 			@yield('content')	
@@ -71,8 +72,13 @@
 			gg
 		</div>
 	</footer>
-
-
-
 </body>
 </html>
+<script>
+	$(document).ready(function(){
+		$("#noom").click(function(){
+			//$("#scoller").addClass('navbar-fixed-top');
+			alert("vfgdfgd");
+		});
+	});
+</script>
