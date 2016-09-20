@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>MSU Part-Time</title>
-	<link href="{{ URL::asset('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+	<link href="{{ URL::asset('../bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 </head>
 
 	<style type="text/css" media="screen">
